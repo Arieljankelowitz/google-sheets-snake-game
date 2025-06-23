@@ -20,9 +20,28 @@ Play a Snake game directly inside Google Sheets! Use arrow buttons or menu items
 3. Or click the arrow buttons (⬆️⬇️⬅️➡️) in the sheet UI
 4. Eat the red squares, grow your snake, and set a high score!
 
-## 📷 Screenshot
+## ⚠️ First-Time Setup: Granting Permissions
 
-![Game Screenshot](screenshots/snake-game-preview.png)
+Since this project uses **Google Apps Script**, Google will ask you to **authorize** it the first time.
+
+### Why?
+
+Apps Script needs permission to:
+- Read and update the spreadsheet (move the snake)
+- Show input boxes (for your name when you get a high score)
+- Store game data using Script Properties
+
+### ✅ Steps to Authorize
+
+1. Click **“Snake Game → PlayGame”**
+2. A Google authorization prompt will appear
+3. Click **“Continue”**
+4. Choose your Google Account
+5. Click **“Allow”** to grant access
+
+> 🔒 This script only runs inside your own spreadsheet. No data is sent anywhere.
+
+
 
 ## 👨‍💻 Built With
 - Google Sheets
